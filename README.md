@@ -1,5 +1,22 @@
 # 🌐 MTProto Proxies Aggregator
 
+<p align="center">
+  <a href="https://github.com/klondike0x/mtp4tg-proxies/stargazers">
+    <img src="https://img.shields.io/github/stars/klondike0x/mtp4tg-proxies?style=social" alt="Stars"></a>
+  <a href="https://github.com/klondike0x/mtp4tg-proxies/actions/workflows/update.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/klondike0x/mtp4tg-proxies/update.yml?label=Auto-Update&logo=githubactions&logoColor=white" alt="Build Status"></a>
+  <img src="https://img.shields.io/github/last-commit/klondike0x/mtp4tg-proxies?label=Last%20Update&color=blue" alt="Last Commit">
+  <a href="https://github.com/klondike0x/mtp4tg-proxies/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/klondike0x/mtp4tg-proxies?color=green" alt="License"></a>
+  <img src="https://img.shields.io/badge/Sources-2-orange" alt="Sources">
+</p>
+
+<p align="center">
+  <b>⭐ Если этот список помог вам обойти блокировки — поставьте, пожалуйста, звезду! Это лучшая благодарность и мотивация развивать проект.</b>
+</p>
+
+---
+
 Автообновляемый агрегатор MTProto прокси из **двух источников**:
 
 ## 📡 Источники
