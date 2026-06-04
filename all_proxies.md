@@ -1,21 +1,20 @@
 # 🌐 MTProto Proxies
-**Всего прокси:** 11
+**Всего прокси:** 10
 
 **Источники:**
-- @mtp4tg: 11
+- @mtp4tg: 10
 
 ---
 
 | # | Сервер | Порт | Источник | Ссылка |
 |---|--------|------|----------|--------|
-| 1 | `auto.kimy.space` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=auto.kimy.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275) |
-| 2 | `link.jlpokcu.cloud` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=link.jlpokcu.cloud&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275) |
-| 3 | `s4.relaynode42.xyz` | `4515` | @mtp4tg | [Open](https://t.me/proxy?server=s4.relaynode42.xyz&port=4515&secret=ee21de1e49e67dc42e6435dcd8d289cbe2626973636f7474692e79656b74616e65742e636f6d) |
-| 4 | `secure.jlpokcu.cloud` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=secure.jlpokcu.cloud&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275) |
-| 5 | `connect.mtp.lat` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=connect.mtp.lat&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275) |
+| 1 | `135.136.183.60` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=135.136.183.60&port=8443&secret=eec2dd831e6644bd3c52b017748e8b65ed31632e7275) |
+| 2 | `niderl.kimy.space` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=niderl.kimy.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275) |
+| 3 | `a.rkn.dog` | `42443` | @mtp4tg | [Open](https://t.me/proxy?server=a.rkn.dog&port=42443&secret=eecd8f55ad4cc566f6ab7faaa6773378e5726b6e2e646f67) |
+| 4 | `auto.kimy.space` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=auto.kimy.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275) |
+| 5 | `89.169.178.159` | `853` | @mtp4tg | [Open](https://t.me/proxy?server=89.169.178.159&port=853&secret=ee82c26de705aff2092ed3f7463e08ba5c70696b2e7275) |
 | 6 | `redflag.yazaebalsyadelatproxy.uk` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.uk&port=443&secret=ee69e899d89ec68e220ca177557322b27f63686565736563726166742e6f6e6c696e65) |
-| 7 | `135.136.183.60` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=135.136.183.60&port=8443&secret=eec2dd831e6644bd3c52b017748e8b65ed31632e7275) |
-| 8 | `niderl.kimy.space` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=niderl.kimy.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275) |
-| 9 | `a.rkn.dog` | `42443` | @mtp4tg | [Open](https://t.me/proxy?server=a.rkn.dog&port=42443&secret=eecd8f55ad4cc566f6ab7faaa6773378e5726b6e2e646f67) |
-| 10 | `89.169.178.159` | `853` | @mtp4tg | [Open](https://t.me/proxy?server=89.169.178.159&port=853&secret=ee82c26de705aff2092ed3f7463e08ba5c70696b2e7275) |
-| 11 | `global.mtp.lat` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=global.mtp.lat&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275) |
+| 7 | `global.mtp.lat` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=global.mtp.lat&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275) |
+| 8 | `155.212.129.41` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=155.212.129.41&port=443&secret=ee3ece43327d98718402666a7f1adb32bc77622e7275) |
+| 9 | `s4.relaynode42.xyz` | `4515` | @mtp4tg | [Open](https://t.me/proxy?server=s4.relaynode42.xyz&port=4515&secret=ee21de1e49e67dc42e6435dcd8d289cbe2626973636f7474692e79656b74616e65742e636f6d) |
+| 10 | `max.kimt.click` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
