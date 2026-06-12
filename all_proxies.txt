@@ -1,8 +1,6 @@
-tg://proxy?server=89.125.144.***&port=443&secret=dd1e0c38af892dfc1ec53820edede6fec2
-tg://proxy?server=jlpokcu.***&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
 tg://proxy?server=103.249.134.***&port=442&secret=ee1986261431072e019f71bdb1edd8f8bc6170692d6d6170732e79616e6465782e7275
-tg://proxy?server=201.51.25.***&port=443&secret=ee31a108968c214be9d4db33f789d75eb47275747562652e7275
 tg://proxy?server=kima.rabotaet.***&port=443&secret=ee12e7e5f961f258b04af168a1cba6318a6b696d612e7261626f746165742e6f6e6c696e65
+tg://proxy?server=194.156.117.***&port=443&secret=eed9d7543160128b6d5ea8b9a744978d747275747562652e7275
 tg://proxy?server=31.58.220.***&port=443&secret=dd32b29196e09ed5119f7b7fac3cd4cdab
 tg://proxy?server=connect.mtp.***&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
 tg://proxy?server=mtp.nowabst.***&port=853&secret=ee82ce1f84af4033cc7e7b021069be3d5b6164732e78352e7275
@@ -10,5 +8,8 @@ tg://proxy?server=tele2mt.duckdns.***&port=443&secret=eeddb6c661f6fdaa29528b3c8f
 tg://proxy?server=151.243.190.***&port=442&secret=eeaa0a0f2014435facb98d292275d16be96b6172616f6b652d73656d656e6f762e7275
 tg://proxy?server=mtp.twistedos.***&port=443&secret=ee3c1e842f9a5ee63a8fd68192a680e44f646e732d73686f702e7275
 tg://proxy?server=pub.rkn.***&port=443&secret=eecd8f55ad4cc566f6ab7faaa6773378e57075622e726b6e2e646f67
+tg://proxy?server=201.51.25.***&port=443&secret=ee31a108968c214be9d4db33f789d75eb47275747562652e7275
 tg://proxy?server=cloud.mtproxy.***&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
 tg://proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=uplink.enot.***&port=443&secret=eeddea4ea4ea4ea4ea4ea4ea4ea4ea4ea4766b2e636f6d
+tg://proxy?server=ya1.mtproxygram.***&port=443&secret=eed60799084e8946bb9e4eba5d77e1a92a62726f777365722e79616e6465782e7275
