@@ -8,13 +8,13 @@
 
 | # | Сервер | Порт | Источник | Ссылка |
 |---|--------|------|----------|--------|
-| 1 | `216.162.44.***` | `442` | @mtp4tg | [Open](https://t.me/proxy?server=216.162.44.***&port=442&secret=ee6eddd30841668390719497cf04fb31736b6172616f6b652d73656d656e6f762e7275) |
-| 2 | `snova.zaebalsya.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=snova.zaebalsya.***&port=443&secret=eef2bed18f685d75d61df7c5a33b431c2f736e6f76612e7275) |
-| 3 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
-| 4 | `go.norkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=go.norkn.***&port=443&secret=ee55be84478776a1b1492a8d164c5695c46d6972726f722e74696d657765622e7275) |
-| 5 | `31.58.220.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=31.58.220.***&port=443&secret=dd32b29196e09ed5119f7b7fac3cd4cdab) |
-| 6 | `portal.norkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=portal.norkn.***&port=443&secret=ee49fcfc14e7c2f10cd6b290a5c0375e916d6972726f722e646f636b65722e7275) |
-| 7 | `o.turboproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=o.turboproxy.***&port=443&secret=ee8b60156255cd03a3201a4af8655e211a67716c2d31757037643876307a6c6e6f323130782e7477697463682e7476) |
-| 8 | `mirror.rkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=mirror.rkn.***&port=443&secret=eec45700cddd494eb8a993de0023cafd7f6d6972726f722e636f7262696e612e6e6574) |
-| 9 | `45.153.188.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=45.153.188.***&port=443&secret=eebde8e9481e4b8c57e5368de5b09253477275747562652e7275) |
-| 10 | `reborn.rebirthconnect.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=reborn.rebirthconnect.***&port=443&secret=eeabb5c5430f2510e43863f9b6284f97b37265626f726e2e72656269727468636f6e6e6563742e636f6d) |
+| 1 | `portal.norkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=portal.norkn.***&port=443&secret=ee49fcfc14e7c2f10cd6b290a5c0375e916d6972726f722e646f636b65722e7275) |
+| 2 | `o.turboproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=o.turboproxy.***&port=443&secret=ee8b60156255cd03a3201a4af8655e211a67716c2d31757037643876307a6c6e6f323130782e7477697463682e7476) |
+| 3 | `mirror.rkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=mirror.rkn.***&port=443&secret=eec45700cddd494eb8a993de0023cafd7f6d6972726f722e636f7262696e612e6e6574) |
+| 4 | `155.212.141.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=155.212.141.***&port=443&secret=eed2a00310edd9ba27d5dcad4cdf93c4a57275747562652e7275) |
+| 5 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
+| 6 | `reborn.rebirthconnect.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=reborn.rebirthconnect.***&port=443&secret=eeabb5c5430f2510e43863f9b6284f97b37265626f726e2e72656269727468636f6e6e6563742e636f6d) |
+| 7 | `ya1.myfindserver.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=ya1.myfindserver.***&port=443&secret=ee7f263e60031b0bd4b3fce48eb6bddb3262726f777365722e79616e6465782e7275) |
+| 8 | `go.norkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=go.norkn.***&port=443&secret=ee55be84478776a1b1492a8d164c5695c46d6972726f722e74696d657765622e7275) |
+| 9 | `ya2.myfindserver.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=ya2.myfindserver.***&port=443&secret=ee7f263e60031b0bd4b3fce48eb6bddb3262726f777365722e79616e6465782e7275) |
+| 10 | `free.mtaccess.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=free.mtaccess.***&port=443&secret=ee3318a7dcdefb6bdf0813e3ec1022d754636c6f7564666c6172652e636f6d) |
