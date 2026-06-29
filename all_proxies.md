@@ -1,17 +1,16 @@
 # 🌐 MTProto Proxies
-**Всего прокси:** 7
+**Всего прокси:** 6
 
 **Источники:**
-- @mtp4tg: 7
+- @mtp4tg: 6
 
 ---
 
 | # | Сервер | Порт | Источник | Ссылка |
 |---|--------|------|----------|--------|
-| 1 | `178.236.253.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=178.236.253.***&port=443&secret=ee8617ce586da868d80e521403d6c26eef7275747562652e7275) |
-| 2 | `as.mkim.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=as.mkim.***&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b) |
-| 3 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f706c617932676f2e636c6f7564) |
-| 4 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
-| 5 | `2.26.255.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=2.26.255.***&port=443&secret=ee74cce5e6277e1e4940a9cbcbb096d6357275747562652e7275) |
-| 6 | `o.turboproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=o.turboproxy.***&port=443&secret=ee8b60156255cd03a3201a4af8655e211a67716c2d31757037643876307a6c6e6f323130782e7477697463682e7476) |
-| 7 | `ru1.loveproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=ru1.loveproxy.***&port=443&secret=ee10a9bbc28226bf8b41915af388cd4eb562726f777365722e79616e6465782e7275) |
+| 1 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f706c617932676f2e636c6f7564) |
+| 2 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
+| 3 | `as.mkim.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=as.mkim.***&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b) |
+| 4 | `89.169.39.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=89.169.39.***&port=443&secret=ee1bb5bb4e7d8b7bd20ef754b753bb4ac57275747562652e7275) |
+| 5 | `o.turboproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=o.turboproxy.***&port=443&secret=ee8b60156255cd03a3201a4af8655e211a67716c2d31757037643876307a6c6e6f323130782e7477697463682e7476) |
+| 6 | `ru1.loveproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=ru1.loveproxy.***&port=443&secret=ee10a9bbc28226bf8b41915af388cd4eb562726f777365722e79616e6465782e7275) |
