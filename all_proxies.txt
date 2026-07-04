@@ -1,8 +1,7 @@
-tg://proxy?server=ru.gotelega.***&port=443&secret=eee1cbe946c5dbffcdc670715711f6b35a72752e676f74656c6567612e636c69636b
-tg://proxy?server=ss.twistedos.***&port=443&secret=ee272e410c7d910dd6ffa583628190af4b636c6f7564666c6172652e636f6d
 tg://proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363
-tg://proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=direct.mtaccess.***&port=443&secret=eedc3fb36929b7d3f26fe642ad5f8e7331636c6f7564666c6172652e636f6d
 tg://proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
+tg://proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
 tg://proxy?server=proxy.lodkirmm.***&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
 tg://proxy?server=2.pro.lunoconnect.***&port=443&secret=ee9e61388de8911b3d39196f12bb31011d322e70726f2e6c756e6f636f6e6e6563742e636f6d
+tg://proxy?server=45.12.75.***&port=443&secret=eed3451ca6b019ec516ad995d744edc32c6f7a6f6e2e7275
+tg://proxy?server=o.turboproxy.***&port=443&secret=ee8b60156255cd03a3201a4af8655e211a67716c2d31757037643876307a6c6e6f323130782e7477697463682e7476
