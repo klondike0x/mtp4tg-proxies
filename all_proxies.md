@@ -1,19 +1,18 @@
 # 🌐 MTProto Proxies
-**Всего прокси:** 9
+**Всего прокси:** 8
 
 **Источники:**
-- @mtp4tg: 9
+- @mtp4tg: 8
 
 ---
 
 | # | Сервер | Порт | Источник | Ссылка |
 |---|--------|------|----------|--------|
-| 1 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
-| 2 | `ardesvpn1.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275) |
-| 3 | `tsw.baboon.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=tsw.baboon.***&port=443&secret=ee5f20bd8e2f77ff570e85a0157d8622dd706574726f766963682e7275) |
-| 4 | `live.rkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=live.rkn.***&port=443&secret=ee6a5f1f9f1164246a9b445ea980da02d16c6976652e726b6e2e646f67) |
-| 5 | `31.129.104.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=31.129.104.***&port=443&secret=ee8cf7a55971a34f8496540c17b0e029d46f7a6f6e2e7275) |
-| 6 | `tg4.rebirthconnect.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=tg4.rebirthconnect.***&port=443&secret=eea0ad36c9b20acb99ab89446116740e8c7467342e72656269727468636f6e6e6563742e636f6d) |
-| 7 | `snova.zaebalsya.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=snova.zaebalsya.***&port=443&secret=eef2bed18f685d75d61df7c5a33b431c2f736e6f76612e7275) |
-| 8 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363) |
-| 9 | `temp82669.ddproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=temp82669.ddproxy.***&port=443&secret=ee8e50bb8dc09048574e0e8027323ccc6474656d7038323636392e646470726f78792e78797a) |
+| 1 | `ardesvpn1.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275) |
+| 2 | `31.129.104.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=31.129.104.***&port=443&secret=ee8cf7a55971a34f8496540c17b0e029d46f7a6f6e2e7275) |
+| 3 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
+| 4 | `tg4.rebirthconnect.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=tg4.rebirthconnect.***&port=443&secret=eea0ad36c9b20acb99ab89446116740e8c7467342e72656269727468636f6e6e6563742e636f6d) |
+| 5 | `snova.zaebalsya.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=snova.zaebalsya.***&port=443&secret=eef2bed18f685d75d61df7c5a33b431c2f736e6f76612e7275) |
+| 6 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363) |
+| 7 | `temp82669.ddproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=temp82669.ddproxy.***&port=443&secret=ee8e50bb8dc09048574e0e8027323ccc6474656d7038323636392e646470726f78792e78797a) |
+| 8 | `whiskey.bravooscartango.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=whiskey.bravooscartango.***&port=443&secret=ee3856b02f811420a95d8c51fc2c9ad7d0776869736b65792e627261766f6f7363617274616e676f2e636c69636b) |
