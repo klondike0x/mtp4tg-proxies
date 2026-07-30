@@ -1,18 +1,22 @@
 # 🌐 MTProto Proxies
-**Всего прокси:** 8
+**Всего прокси:** 12
 
 **Источники:**
-- @mtp4tg: 8
+- @mtp4tg: 12
 
 ---
 
 | # | Сервер | Порт | Источник | Ссылка |
 |---|--------|------|----------|--------|
-| 1 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
-| 2 | `proxy.lodkirmm.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=proxy.lodkirmm.***&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275) |
-| 3 | `free.proxy3.lightningvpn.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=free.proxy3.lightningvpn.***&port=8443&secret=dd3784a9e56feaa966e3d51cae9805cb62) |
-| 4 | `ardesvpn1.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275) |
-| 5 | `paired.duckdns.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=paired.duckdns.***&port=8443&secret=eec741a811908c5b4238dee60fc14c784c7765622e796f74612e7275) |
-| 6 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363) |
-| 7 | `juliett.whiskeytangofoxtrot.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=juliett.whiskeytangofoxtrot.***&port=443&secret=ee8abb91866abb73cff49a617f1f6b8df06a756c696574742e776869736b657974616e676f666f7874726f742e6c6f6c) |
-| 8 | `welcome.v6n.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=welcome.v6n.***&port=443&secret=eea6484f075c2288e653a8e720280712687777772e626f6f6b696e672e636f6d) |
+| 1 | `redflag.yazaebalsyadelatproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=redflag.yazaebalsyadelatproxy.***&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363) |
+| 2 | `free.proxy3.lightningvpn.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=free.proxy3.lightningvpn.***&port=8443&secret=dd3784a9e56feaa966e3d51cae9805cb62) |
+| 3 | `ardesvpn1.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275) |
+| 4 | `proxy.lodkirmm.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=proxy.lodkirmm.***&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275) |
+| 5 | `juliett.whiskeytangofoxtrot.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=juliett.whiskeytangofoxtrot.***&port=443&secret=ee8abb91866abb73cff49a617f1f6b8df06a756c696574742e776869736b657974616e676f666f7874726f742e6c6f6c) |
+| 6 | `welcome.v6n.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=welcome.v6n.***&port=443&secret=eea6484f075c2288e653a8e720280712687777772e626f6f6b696e672e636f6d) |
+| 7 | `max.kimt.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=max.kimt.***&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b) |
+| 8 | `paired.duckdns.***` | `8443` | @mtp4tg | [Open](https://t.me/proxy?server=paired.duckdns.***&port=8443&secret=eec741a811908c5b4238dee60fc14c784c7765622e796f74612e7275) |
+| 9 | `ns1.mtproxy.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=ns1.mtproxy.***&port=443&secret=ee2d6da494e59b09ca4fb882c5b6507fe26e73312e6d7470726f78792e746f70) |
+| 10 | `mt.corph.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=mt.corph.***&port=443&secret=dd2ed7517b077ef414e24b106e0729335d) |
+| 11 | `api-gateway.vnsafe.***` | `8530` | @mtp4tg | [Open](https://t.me/proxy?server=api-gateway.vnsafe.***&port=8530&secret=ee6201e79ed5ea2d8ed0868f45a90f064a7777772e6d6963726f736f66742e636f6d) |
+| 12 | `live.rkn.***` | `443` | @mtp4tg | [Open](https://t.me/proxy?server=live.rkn.***&port=443&secret=ee03dd54520b5b8fd3970d650303769b5e6c6976652e726b6e2e646f67) |
