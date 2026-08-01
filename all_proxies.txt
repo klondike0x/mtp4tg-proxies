@@ -1,5 +1,3 @@
-tg://proxy?server=31.169.124.***&port=22&secret=eee63136245378a823fc2f093947051da431632e7275
-tg://proxy?server=176.57.69.***&port=53627&secret=ee42eb79c1df22d7be6de261ce63082a4d31632e7275
 tg://proxy?server=proxy.trusttune.***&port=443&secret=ee7e66afbe690f489d94c2d7437011998170726f78792e747275737474756e652e7275
 tg://proxy?server=138.124.64.***&port=1987&secret=eee041b08460e388a5ec753e835245ea35616c7461792e78797a
 tg://proxy?server=uniform.whiskeytangofoxtrot.***&port=443&secret=eeab6cf69dee356366c08c3c81b38b915a756e69666f726d2e776869736b657974616e676f666f7874726f742e6c6f6c
