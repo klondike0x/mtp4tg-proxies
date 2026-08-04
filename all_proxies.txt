@@ -5,6 +5,8 @@ tg://proxy?server=xyz.brickstack.***&port=443&secret=ee19b8bc9be95e8a158117a2000
 tg://proxy?server=loverkn.travokur.***&port=443&secret=eeb9a04b16eb37b8fd836fa717d6a8425f6c6f7665726b6e2e747261766f6b75722e7375
 tg://proxy?server=proxy.lodkirmm.***&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
 tg://proxy?server=ardesvpn1.***&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
+tg://proxy?server=medblock.***&port=443&secret=ee56f78cfdeedfc4562c048fe36e92f8976d6564626c6f636b2e666974
+tg://proxy?server=93.93.205.79&port=443&secret=ee0fe587f40c56420da5430215c0fe58c57777772e636c6f7564666c6172652e636f6d
 tg://proxy?server=v.vkgosuslugi.***&port=443&secret=ee4847c4a4a02cb443e9d470b2f94dbe5077622e7275
 tg://proxy?server=medblock.***&port=443&secret=ee56f78cfdeedfc4562c048fe36e92f8976d6564626c6f636b2e666974
 tg://proxy?server=tmr.baboon.***&port=443&secret=ee92420f5452464d6cc27a35e5dc90b124706574726f766963682e7275
