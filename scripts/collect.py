@@ -6,6 +6,8 @@ MTProto Proxies Aggregator
 
 import requests
 import re
+import html
+import base64
 from urllib.parse import urlparse, parse_qs
 
 # ===== Константы =====
@@ -13,6 +15,11 @@ CHANNEL = 'mtp4tg'
 UPSTREAM_URL = 'https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt'
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 TIMEOUT = 15  # Таймаут запросов в секундах
+MAX_SERVER_LEN = 255
+MIN_PORT = 1
+MAX_PORT = 65535
+MIN_SECRET_LEN = 8
+MAX_SECRET_LEN = 100
 
 
 def is_valid_proxy(proxy):
@@ -30,28 +37,31 @@ def is_valid_proxy(proxy):
     secret = proxy.get('secret', '')
     
     # Проверка сервера (домен или IP)
-    if not server or len(server) > 255:
+    if not server or len(server) > MAX_SERVER_LEN:
         return False
     
     # Проверка порта (должен быть числом от 1 до 65535)
     try:
         port_num = int(port)
-        if port_num < 1 or port_num > 65535:
+        if port_num < MIN_PORT or port_num > MAX_PORT:
             return False
     except (ValueError, TypeError):
         return False
     
     # Проверка secret (может быть разной длины, обычно начинается с ee)
-    if not secret or len(secret) < 8 or len(secret) > 100:
+    if not secret or len(secret) < MIN_SECRET_LEN or len(secret) > MAX_SECRET_LEN:
         return False
     
     # Проверяем, что это hex или base64 строка
     try:
         int(secret, 16)  # Пробуем как hex
     except (ValueError, TypeError):
-        # Если не hex, проверяем как base64 или просто валидная строка
-        import re
-        if not re.match(r'^[a-zA-Z0-9+/=]+$', secret):
+        # Если не hex, проверяем как base64 (включая URL-safe)
+        try:
+            # Добавляем padding если нужно
+            padded = secret + '=' * (4 - len(secret) % 4) if len(secret) % 4 else secret
+            base64.urlsafe_b64decode(padded)
+        except Exception:
             return False
     
     return True
@@ -112,9 +122,9 @@ def collect_from_mtp4tg():
             params = parse_qs(parsed.query)
             
             if 'server' in params and 'port' in params and 'secret' in params:
-                server = params['server'][0]
-                port = params['port'][0]
-                secret = params['secret'][0]
+                server = params['server'][0] if params['server'] else ''
+                port = params['port'][0] if params['port'] else ''
+                secret = params['secret'][0] if params['secret'] else ''
                 
                 proxy = {
                     'server': server,
@@ -174,10 +184,14 @@ def collect_from_upstream():
                 params = parse_qs(parsed.query)
                 
                 if 'server' in params and 'port' in params and 'secret' in params:
+                    server = params['server'][0] if params['server'] else ''
+                    port = params['port'][0] if params['port'] else ''
+                    secret = params['secret'][0] if params['secret'] else ''
+                    
                     proxy = {
-                        'server': params['server'][0],
-                        'port': params['port'][0],
-                        'secret': params['secret'][0],
+                        'server': server,
+                        'port': port,
+                        'secret': secret,
                         'source': 'SoliSpirit (verified)'
                     }
                     
@@ -185,14 +199,6 @@ def collect_from_upstream():
                         proxies.append(proxy)
         
         print(f' ✅ Загружено: {len(proxies)} проверенных прокси')
-        
-        # Показываем, сколько отфильтровано валидацией
-        valid_count = len(proxies)
-        total_count = len([l for l in lines if l.strip().startswith(('tg://proxy?', 'https://t.me/proxy?'))])
-        if total_count > 0:
-            filtered = total_count - valid_count
-            if filtered > 0:
-                print(f' ℹ️ Отфильтровано невалидных: {filtered}')
         
         return proxies
     
@@ -319,8 +325,8 @@ def generate_files(proxies):
     html.append(f'  </div>\n')
     
     for p in proxies:
-        tg = f"tg://proxy?server={p['server']}&port={p['port']}&secret={p['secret']}"
-        label = f"🔌 {p['server']}:{p['port']}"
+        tg = f"tg://proxy?server={html.escape(p['server'])}&port={html.escape(p['port'])}&secret={html.escape(p['secret'])}"
+        label = f"🔌 {html.escape(p['server'])}:{html.escape(p['port'])}"
         css_class = 'proxy-btn verified' if 'SoliSpirit' in p['source'] else 'proxy-btn'
         
         if 'SoliSpirit' in p['source']:
@@ -344,6 +350,12 @@ def main():
     upstream_proxies = collect_from_upstream()
     
     all_proxies = mtp4tg_proxies + upstream_proxies
+    
+    # Проверка на пустой список до слияния
+    if not all_proxies:
+        print('\n❌ Прокси не найдены ни в одном источнике!')
+        return
+    
     merged = merge_proxies(all_proxies)
     
     if not merged:
