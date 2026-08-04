@@ -2,8 +2,8 @@ name: Update mtp4tg Proxies
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # 🕒 Каждые 12 часов (00:00 и 12:00 UTC)
-  workflow_dispatch:       # Кнопка ручного запуска (Run workflow)
+    - cron: '0 */12 * * *' # 🕒 Каждые 12 часов (00:00 и 12:00 UTC)
+  workflow_dispatch: # Кнопка ручного запуска (Run workflow)
 
 permissions:
   contents: write
@@ -13,22 +13,48 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          
-      - name: Install requests
-        run: pip install requests
-        
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Collect proxies
         run: python scripts/collect.py
-        
+        continue-on-error: true
+
+      - name: Check if proxies found
+        run: |
+          if [ ! -f all_proxies.txt ]; then
+            echo "❌ No proxies file found. Skipping commit."
+            exit 1
+          fi
+          
+          PROXY_COUNT=$(wc -l < all_proxies.txt)
+          if [ "$PROXY_COUNT" -lt 5 ]; then
+            echo "❌ Too few proxies found ($PROXY_COUNT). Skipping commit to avoid emptying the list."
+            exit 1
+          fi
+          
+          echo "✅ Found $PROXY_COUNT proxies. Proceeding with commit."
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add all_proxies.* 
+          git add all_proxies.*
           git diff --quiet && git diff --staged --quiet || \
-            (git commit -m "🔄 Update $(date '+%Y-%m-%d %H:%M') UTC" && git push)
+          (git commit -m "🔄 Update $(date '+%Y-%m-%d %H:%M') UTC" && git push)
